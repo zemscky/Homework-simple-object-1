@@ -6,6 +6,8 @@ public class Main {
         Book secondBook = new Book("The Lord of the Rings", secondAuthorBook,1955);
         System.out.println("Название первой книги - " + firstBook.getBookName());
         System.out.println("Название второй книги - " + secondBook.getBookName());
+        System.out.println("Автор - " + firstAuthorBook);
+        System.out.println("Автор - " + secondAuthorBook);
         System.out.println("Издание первой книги - " + firstBook.getPublishingYear() + " год");
         System.out.println("Издание второй книги - " + secondBook.getPublishingYear() + " год");
 
