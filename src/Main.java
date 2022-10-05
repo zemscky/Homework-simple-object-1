@@ -7,8 +7,8 @@ public class Main {
         System.out.println("Название первой книги - " + firstBook.getBookName() + ". " + firstAuthorBook + ". Издание книги - " + firstBook.getPublishingYear() + " год");
         System.out.println("Название второй книги - " + secondBook.getBookName() + ". " + secondAuthorBook + ". Издание книги - " + secondBook.getPublishingYear() + " год");
 
-        System.out.println("Автор первой книги - " + firstAuthorBook.getNameAuthor() + " " + firstAuthorBook.getSurnameAuthor());
-        System.out.println("Автор второй книги - " + secondAuthorBook.getNameAuthor() + " " + secondAuthorBook.getSurnameAuthor());
+        System.out.println("Автор первой книги - " + firstAuthorBook.toString());
+        System.out.println("Автор первой книги - " + secondAuthorBook.toString());
 
         secondBook.setYear(1954);
         System.out.println("Издание второй книги - " + secondBook.getPublishingYear() + " год");
